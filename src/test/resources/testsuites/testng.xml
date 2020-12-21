@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Default suite" verbose="1" parallel="methods" thread-count="50">
+
+    <suite-files>
+        <suite-file path="contract/contract.xml"/>
+        <suite-file path="endpoints/endpoints.xml"/>
+    </suite-files>
+
+</suite>

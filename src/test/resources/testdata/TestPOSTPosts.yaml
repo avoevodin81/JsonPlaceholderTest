@@ -1,0 +1,25 @@
+TestDataSimpleUserCreation: {
+  "userId": 1,
+  "id": 102,
+  "title": "title",
+  "body": "body"
+}
+
+TestDataCheckValidationOfId: {
+  "userId": 0,
+  "id": 1000000000,
+  "title": "title",
+  "body": "body"
+}
+
+TestDataCheckValidationWOTitle: {
+  "userId": 2,
+  "id": 101,
+  "body": "body"
+}
+
+TestDataCheckValidationWOBody: {
+  "userId": 3,
+  "id": 101,
+  "title": "title"
+}

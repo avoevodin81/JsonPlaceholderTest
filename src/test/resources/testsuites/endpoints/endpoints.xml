@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Endpoints suite" verbose="1" parallel="tests" thread-count="50">
+
+    <test name="TestGETPosts"><classes><class name="com.typicode.jsonplaceholder.endpoints.TestGETPosts"/></classes></test>
+    <test name="TestGETPostsId"><classes><class name="com.typicode.jsonplaceholder.endpoints.TestGETPostsId"/></classes></test>
+    <test name="TestGETPostsIdComments"><classes><class name="com.typicode.jsonplaceholder.endpoints.TestGETPostsIdComments"/></classes></test>
+    <test name="TestGETCommentsPostId"><classes><class name="com.typicode.jsonplaceholder.endpoints.TestGETCommentsPostId"/></classes></test>
+    <test name="TestPOSTPosts"><classes><class name="com.typicode.jsonplaceholder.endpoints.TestPOSTPosts"/></classes></test>
+    <test name="TestPUTPostsId"><classes><class name="com.typicode.jsonplaceholder.endpoints.TestPUTPostsId"/></classes></test>
+    <test name="TestDELETEPostsId"><classes><class name="com.typicode.jsonplaceholder.endpoints.TestDELETEPostsId"/></classes></test>
+
+</suite>

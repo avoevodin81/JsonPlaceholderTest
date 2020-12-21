@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Contract suite" verbose="1" parallel="tests" thread-count="50">
+
+    <test name="TestGETPostsContract"><classes><class name="com.typicode.jsonplaceholder.contract.TestGETPostsContract"/></classes></test>
+    <test name="TestGETPostsIdCommentsContract"><classes><class name="com.typicode.jsonplaceholder.contract.TestGETPostsIdCommentsContract"/></classes></test>
+    <test name="TestGETCommentsIdContract"><classes><class name="com.typicode.jsonplaceholder.contract.TestGETCommentsIdContract"/></classes></test>
+
+</suite>
